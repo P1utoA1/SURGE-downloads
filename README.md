@@ -4,8 +4,8 @@ SURGE is a Windows performance utility focused on temporary, reversible optimiza
 
 ## Download
 
-- Website: https://YOUR-GITHUB-USERNAME.github.io/SURGE-downloads/
-- Latest release: https://github.com/YOUR-GITHUB-USERNAME/SURGE-downloads/releases/latest
+- Website: https://P1utoA1.github.io/SURGE-downloads/
+- Latest release: https://github.com/P1utoA1/SURGE-downloads/releases/latest
 - Current package: $ZipName
 - SHA256: $Sha256
 
