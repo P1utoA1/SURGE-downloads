@@ -41,12 +41,12 @@ During an active session, SURGE samples CPU, memory, GPU, network, process, and 
 The app does not spoof telemetry or claim guaranteed FPS gains. Windows, drivers, games, routers, cables, and ISP limits still matter. SURGE focuses on reducing avoidable local contention and making those changes visible, repeatable, and restorable.
 
 ## Download and verify
-Current package: `SURGE-v1.0.0-20260913-001448-win-x64.zip`
+Current package: `SURGE-v1.0.1-20260913-044935-win-x64.zip`
 
 SHA256:
 
 ```text
-25CC1B8B4777100BDC59252B6E1A9B3DCC67F2E1045552BAE2C4743D0640CAB9
+7E60661F3ACBD2244493300F7D07A2CB6580B4D6B1B831CAFF5EDEF882917FFE
 ```
 
 Download from the [latest release page](https://github.com/P1utoA1/SURGE-downloads/releases/latest), unzip the package, and run `Surge.exe`. Windows administrator approval is recommended so all optimizer modules can run.
@@ -54,3 +54,4 @@ Download from the [latest release page](https://github.com/P1utoA1/SURGE-downloa
 ## Distribution model
 
 This public repository hosts the website, screenshots, checksums, and release downloads. The editable source project is maintained separately as a private repository, so users can view and download the app without receiving the application source code.
+
