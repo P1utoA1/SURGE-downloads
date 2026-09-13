@@ -9,4 +9,4 @@ SURGE is a Windows performance utility focused on temporary, reversible optimiza
 - Current package: $ZipName
 - SHA256: $Sha256
 
-SURGE should be launched as administrator so the full optimization engine can access Windows memory and network APIs. The source project can stay private while this public repository hosts the download page and release files.
+SURGE should be launched as administrator so the full optimization engine can access Windows memory and network APIs. The source project will stay private while this public repository hosts the download page and release files.
