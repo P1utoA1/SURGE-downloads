@@ -3,79 +3,93 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#05070a" />
-  <title>SURGE — Windows Performance Optimizer</title>
-  <meta name="description" content="Download SURGE, a polished Windows performance optimizer with memory, standby-list, process, and network optimization tools." />
+  <meta name="theme-color" content="#000000" />
+  <title>SURGE — OLED Windows Performance Optimizer</title>
+  <meta name="description" content="Download SURGE, a Windows performance optimizer with memory cleanup, standby-list purge, process focus, network refresh and benchmark tools." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="orb orb-one"></div>
-  <div class="orb orb-two"></div>
-  <main class="shell">
-    <nav class="nav">
-      <a class="brand" href="https://P1utoA1.github.io/SURGE-downloads/" aria-label="SURGE home">
+  <div class="aurora"></div>
+  <div class="grain"></div>
+
+  <main class="page-shell">
+    <nav class="topbar glass">
+      <a class="brand" href="https://p1utoa1.github.io/SURGE-downloads/">
         <span>SURGE</span>
         <small>Higher performance awaits</small>
       </a>
-      <div class="nav-links">
-        <a href="https://github.com/P1utoA1/SURGE-downloads/releases/latest">Download</a>
-        <a href="https://github.com/P1utoA1/SURGE-downloads">GitHub</a>
-        <a href="SHA256SUMS.txt">SHA256</a>
+      <div class="nav-actions">
+        <a href="#screens">Screens</a>
+        <a href="#engine">Engine</a>
+        <a class="nav-pill" href="https://github.com/P1utoA1/SURGE-downloads/releases/latest">Download</a>
       </div>
     </nav>
 
     <section class="hero">
-      <div class="copy">
-        <p class="eyebrow">Windows optimization suite</p>
-        <h1>Push your PC into a cleaner, faster state.</h1>
-        <p class="lede">
-          SURGE runs temporary performance passes for standby-list cleanup, working-set trimming,
-          process focus, network tuning, and an extra Boost Flush when you want a sharper push.
-        </p>
-        <div class="actions">
+      <div class="hero-copy">
+        <p class="eyebrow">Windows performance control</p>
+        <h1>OLED-black optimization with a real native engine underneath.</h1>
+        <p class="lede">SURGE gives your PC a cleaner session for games, streams, editing and heavy work. It trims safe background working sets, purges standby memory when elevated, refreshes network state, records every reversible change and gives you an extra Boost Flush when you want another push.</p>
+        <div class="hero-actions">
           <a class="primary" href="https://github.com/P1utoA1/SURGE-downloads/releases/latest">Download latest release</a>
           <a class="secondary" href="SHA256SUMS.txt">Verify checksum</a>
         </div>
-        <p class="checksum">Current package: <strong>SURGE-v1.0.0-20260913-001448-win-x64.zip</strong></p>
-      </div>
-
-      <div class="core" aria-hidden="true">
-        <div class="ring"></div>
-        <div class="sphere">
-          <span class="bolt">⚡</span>
-          <strong>SURGE</strong>
-          <small>Activate</small>
+        <div class="hero-stats glass">
+          <span><strong>Live</strong> telemetry</span>
+          <span><strong>Admin</strong> optimizer</span>
+          <span><strong>Reversible</strong> ledger</span>
         </div>
       </div>
+
+      <div class="hero-device glass">
+        <img src="assets/surge-system-dashboard.png" alt="SURGE system dashboard showing the activation sphere and live CPU, RAM, GPU, latency and temperature cards" />
+        <div class="shine"></div>
+      </div>
     </section>
 
-    <section class="cards" aria-label="SURGE capabilities">
-      <article>
-        <span>01</span>
-        <h2>Memory boost</h2>
-        <p>Runs standby-list purge and working-set trim passes through the native Windows optimization engine.</p>
-      </article>
-      <article>
-        <span>02</span>
-        <h2>Process focus</h2>
-        <p>Lets you choose an active process or executable target and apply SURGE optimization around that workload.</p>
-      </article>
-      <article>
-        <span>03</span>
-        <h2>Network tuning</h2>
-        <p>Applies reversible Windows network settings intended to reduce latency and keep game traffic responsive.</p>
-      </article>
-      <article>
-        <span>04</span>
-        <h2>Boost Flush</h2>
-        <p>Adds a one-click push that empties standby memory, compacts SURGE memory, and refreshes live telemetry.</p>
-      </article>
+    <section class="feature-strip" aria-label="Core capabilities">
+      <article class="glass"><span>01</span><h2>Memory pressure control</h2><p>Trim safe background working sets, clear reclaimable pressure and use Boost Flush for a manual standby-list cleanup push.</p></article>
+      <article class="glass"><span>02</span><h2>Process focus</h2><p>Choose a running process or browse to an executable, analyze it, save it and focus the session around the workload you care about.</p></article>
+      <article class="glass"><span>03</span><h2>Network refresh</h2><p>Flush DNS and apply supported Windows TCP tuning when elevated, while reporting real adapter speed, traffic, latency and jitter.</p></article>
+      <article class="glass"><span>04</span><h2>Proof tools</h2><p>Record baseline and SURGE sessions, import PresentMon captures and export session data for honest before-and-after review.</p></article>
     </section>
 
-    <footer>
-      <span>Administrator launch recommended for full optimization access.</span>
-      <a href="https://github.com/P1utoA1/SURGE-downloads/releases">All releases</a>
-    </footer>
+    <section id="screens" class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">Real app screenshots</p>
+        <h2>See the interface before you download.</h2>
+      </div>
+      <div class="screens-grid">
+        <figure class="glass large"><img src="assets/surge-memory-optimizer.png" alt="SURGE memory optimizer screen with Boost Flush and cleanup metrics" /><figcaption>Memory optimizer, Boost Flush and allocation controls.</figcaption></figure>
+        <figure class="glass"><img src="assets/surge-profiles-modules.png" alt="SURGE profiles screen with Gaming, Competitive, Productivity and Custom profiles" /><figcaption>Profiles and session modules.</figcaption></figure>
+        <figure class="glass"><img src="assets/surge-tools-benchmarks.png" alt="SURGE tools screen with benchmarks and PresentMon frame-time analyzer" /><figcaption>Benchmark and PresentMon tools.</figcaption></figure>
+        <figure class="glass wide"><img src="assets/surge-settings-options.png" alt="SURGE settings screen with motion and system options" /><figcaption>Settings, startup behavior and motion controls.</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="engine" class="engine glass">
+      <div>
+        <p class="eyebrow">What happens under the glass</p>
+        <h2>Native Windows actions, visible state and restoration records.</h2>
+      </div>
+      <div class="engine-grid">
+        <p>SURGE samples CPU, memory, GPU, network adapters, processes and latency from the local machine. The interface is served from a local-only engine on the PC, and the packaged desktop app uses Windows administrator access for the modules that require elevation.</p>
+        <p>When activated, the selected profile can switch to an existing high-performance power plan, trim safe background app working sets, reduce safe background priority, flush DNS, apply supported TCP settings, purge standby/system working sets and start Windows volume optimization.</p>
+        <p>The Surge Ledger records what changed and what gets restored. It does not fake FPS, spoof RAM, bypass security software or promise that hardware, router or ISP limits disappear. It reduces avoidable local pressure and shows what it did.</p>
+      </div>
+    </section>
+
+    <section class="download glass">
+      <div>
+        <p class="eyebrow">Current package</p>
+        <h2>SURGE v1.0.0 for Windows x64</h2>
+        <p>Download the release ZIP, verify the checksum if desired, unzip it and run <code>Surge.exe</code>. Administrator launch is recommended for the full cleanup engine.</p>
+      </div>
+      <div class="download-actions">
+        <a class="primary" href="https://github.com/P1utoA1/SURGE-downloads/releases/latest">Get SURGE</a>
+        <a class="secondary" href="https://github.com/P1utoA1/SURGE-downloads">View GitHub repo</a>
+      </div>
+    </section>
   </main>
 </body>
 </html>
