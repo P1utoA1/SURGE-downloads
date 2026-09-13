@@ -88,7 +88,20 @@ code { color: white; }
   gap: 22px;
 }
 
-.brand span {
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.brand-mark {
+  width: 54px;
+  height: 54px;
+  border-radius: 17px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,.28);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.28), 0 0 28px rgba(255,255,255,.16);
+}
+.brand strong {
   display: block;
   font-size: 1.35rem;
   font-weight: 800;

@@ -1,6 +1,8 @@
 # SURGE — Windows Performance Optimizer
 
-![SURGE dashboard](assets/surge-system-dashboard.png)
+![SURGE logo](assets/surge-logo.png)
+
+![SURGE dashboard](assets/surge-system.png)
 
 SURGE is a polished Windows performance-control app for users who want a cleaner, sharper session before gaming, streaming, recording, editing, or heavy multitasking. It focuses on temporary optimization passes that can be inspected and restored: memory pressure reduction, standby-list cleanup, process focus, background contention control, network refresh, disk optimization kickoff, and benchmark evidence.
 
@@ -17,26 +19,26 @@ SURGE should be launched as administrator so the full optimization engine can ac
 - **Profiles** for Gaming, Competitive, Productivity, and Custom behavior.
 - **Tools and benchmarks** for baseline-versus-SURGE captures, PresentMon CSV frame-time analysis, and exportable session data.
 - **Surge Ledger** that records changes and restoration status so the optimization session is visible instead of hidden.
+- **System tray mode** so closing or minimizing can tuck SURGE into the tray while the active session keeps running.
+- **Optional notifications** that stay off by default and can be enabled in Settings for optimization, update and activity changes.
+- **Auto updater** that checks GitHub Releases, shows a direct in-app update prompt, downloads the newest package when accepted, replaces the app files and restarts SURGE.
+- **App-only uninstaller** that restores SURGE effects first, closes the app if it is running, then deletes only the SURGE install folder and SURGE local state.
 
 ## Screenshots
 
 | System dashboard | Memory optimizer |
 | --- | --- |
-| ![System dashboard](assets/surge-system-dashboard.png) | ![Memory optimizer](assets/surge-memory-optimizer.png) |
+| ![System dashboard](assets/surge-system.png) | ![Memory optimizer](assets/surge-memory-optimizer.png) |
 
-| Profiles and modules | Tools and benchmarks |
+| Tools and benchmarks | Settings, updater and tray |
 | --- | --- |
-| ![Profiles and modules](assets/surge-profiles-modules.png) | ![Tools and benchmarks](assets/surge-tools-benchmarks.png) |
-
-| Settings and motion options |
-| --- |
-| ![Settings and options](assets/surge-settings-options.png) |
+| ![Tools and benchmarks](assets/surge-tools.png) | ![Settings, updater and tray](assets/surge-settings.png) |
 
 ## How SURGE works inside
 
 SURGE runs as a native Windows desktop application with a local-only React interface and a .NET optimization engine. The UI talks to the engine over `127.0.0.1`, so the control surface stays on the PC. When launched as administrator, the engine can reach Windows APIs that normal apps cannot use, including memory-list cleanup and network tuning operations.
 
-During an active session, SURGE samples CPU, memory, GPU, network, process, and adapter data. It then applies the selected profile using reversible actions where Windows allows it. Examples include switching to an existing high-performance power plan, trimming safe background process working sets, lowering safe background priorities, flushing DNS, applying supported TCP tuning, starting Windows volume optimization, and purging system working sets or standby memory when elevated.
+During an active session, SURGE samples CPU, memory, GPU, network, process, and adapter data. It then applies the selected profile using reversible actions where Windows allows it. Examples include switching to an existing high-performance power plan, trimming safe background process working sets, lowering safe background priorities, flushing DNS, applying supported TCP tuning, starting Windows volume optimization, and purging system working sets or standby memory when elevated. The tray keeps the session accessible after the window is hidden, while the updater talks to this public GitHub Releases channel to find newer packages.
 
 The app does not spoof telemetry or claim guaranteed FPS gains. Windows, drivers, games, routers, cables, and ISP limits still matter. SURGE focuses on reducing avoidable local contention and making those changes visible, repeatable, and restorable.
 
