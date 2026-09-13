@@ -1,0 +1,7 @@
+*.zip
+*.exe
+*.msi
+*.7z
+*.rar
+Thumbs.db
+.DS_Store
