@@ -57,12 +57,12 @@ This release addresses the published-build issue where RAM usage could drop and 
 - The UI now reports System Responsiveness, SURGE overhead, memory policy, and Guard status.
 
 ## Download and verify
-Current package: `SURGE-v1.0.2-20260914-004555-win-x64.zip`
+Current package: `SURGE-v1.0.2-20260914-224851-win-x64.zip`
 
 SHA256:
 
 ```text
-CF1C9FF643E941390B8214C7AA565CF4BD9CD70C27F0C1AD21B5A5099B2185DB
+8D1BA1C9D6111AF23EA2526886057077450F7A434872BD6FBF1BE9E92E9A0313
 ```
 
 Download from the [latest release page](https://github.com/P1utoA1/SURGE-downloads/releases/latest), unzip the package, and run `Surge.exe`. Windows administrator approval is recommended so all optimizer modules can run.
@@ -70,5 +70,6 @@ Download from the [latest release page](https://github.com/P1utoA1/SURGE-downloa
 ## Distribution model
 
 This public repository hosts the website, screenshots, checksums, and release downloads. The editable source project is maintained separately as a private repository, so users can view and download the app without receiving the application source code.
+
 
 
