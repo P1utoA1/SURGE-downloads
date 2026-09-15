@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>SURGE — OLED Windows Performance Optimizer</title>
-  <meta name="description" content="Download SURGE, a Windows performance optimizer with memory cleanup, standby-list purge, process focus, network refresh and benchmark tools." />
+  <meta name="description" content="Download SURGE, a Windows performance optimizer with whole-PC responsiveness guard, pressure-aware memory cleanup, process focus, network refresh and benchmark tools." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -28,8 +28,8 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Windows performance control</p>
-        <h1>OLED-black optimization with a real native engine underneath.</h1>
-        <p class="lede">SURGE gives your PC a cleaner session for games, streams, editing and heavy work. It trims safe background working sets, purges standby memory when elevated, refreshes network state, records every reversible change, stays available from the system tray and gives you an extra Boost Flush when you want another push.</p>
+        <h1>OLED-black optimization that keeps the whole PC responsive.</h1>
+        <p class="lede">SURGE v1.0.2 is rebuilt around whole-system balance. It preserves healthy Windows cache, watches its own overhead, avoids disruptive disk/service work by default, records every reversible change, and uses Performance Guard to roll back changes that make the desktop feel slower.</p>
         <div class="hero-actions">
           <a class="primary" href="https://github.com/P1utoA1/SURGE-downloads/releases/latest">Download latest release</a>
           <a class="secondary" href="SHA256SUMS.txt">Verify checksum</a>
@@ -48,9 +48,9 @@
     </section>
 
     <section class="feature-strip" aria-label="Core capabilities">
-      <article class="glass"><span>01</span><h2>Memory pressure control</h2><p>Trim safe background working sets, clear reclaimable pressure and use Boost Flush for a manual standby-list cleanup push.</p></article>
-      <article class="glass"><span>02</span><h2>Process focus</h2><p>Choose a running process or browse to an executable, analyze it, save it and focus the session around the workload you care about.</p></article>
-      <article class="glass"><span>03</span><h2>Network refresh</h2><p>Flush DNS and apply supported Windows TCP tuning when elevated, while reporting real adapter speed, traffic, latency and jitter.</p></article>
+      <article class="glass"><span>01</span><h2>Responsiveness guard</h2><p>Score whole-PC health and revert disruptive priority, suspension or service changes when the system starts feeling worse.</p></article>
+      <article class="glass"><span>02</span><h2>Memory pressure control</h2><p>Preserve useful Windows cache when reserve is healthy, then reclaim carefully only when pressure or manual Boost Flush calls for it.</p></article>
+      <article class="glass"><span>03</span><h2>Process focus</h2><p>Choose a running process or browse to an executable, analyze it, save it and focus the session without High/Realtime priority abuse.</p></article>
       <article class="glass"><span>04</span><h2>Proof tools</h2><p>Record baseline and SURGE sessions, import PresentMon captures and export session data for honest before-and-after review.</p></article>
     </section>
 
@@ -60,7 +60,7 @@
         <h2>See the interface before you download.</h2>
       </div>
       <div class="screens-grid">
-        <figure class="glass large"><img src="assets/surge-system.png" alt="SURGE v1.0.1 system dashboard with live telemetry" /><figcaption>System dashboard, live telemetry and one-click activation.</figcaption></figure>
+        <figure class="glass large"><img src="assets/surge-system.png" alt="SURGE v1.0.2 system dashboard with live telemetry" /><figcaption>System dashboard, live telemetry and guarded activation.</figcaption></figure>
         <figure class="glass"><img src="assets/surge-memory-optimizer.png" alt="SURGE memory optimizer screen with Boost Flush and cleanup metrics" /><figcaption>Memory optimizer, Boost Flush and allocation controls.</figcaption></figure>
         <figure class="glass"><img src="assets/surge-tools.png" alt="SURGE tools screen with benchmarks and PresentMon frame-time analyzer" /><figcaption>Benchmark and PresentMon tools.</figcaption></figure>
         <figure class="glass wide"><img src="assets/surge-settings.png" alt="SURGE settings screen with updater, tray and notification options" /><figcaption>Updater, tray behavior, notification controls and motion settings.</figcaption></figure>
@@ -73,9 +73,9 @@
         <h2>Native Windows actions, visible state and restoration records.</h2>
       </div>
       <div class="engine-grid">
-        <p>SURGE samples CPU, memory, GPU, network adapters, processes and latency from the local machine. The interface is served from a local-only engine on the PC, and the packaged desktop app uses Windows administrator access for the modules that require elevation. v1.0.1 adds tray operation, in-app update checks, optional notifications and an app-only uninstaller.</p>
-        <p>When activated, the selected profile can switch to an existing high-performance power plan, trim safe background app working sets, reduce safe background priority, flush DNS, apply supported TCP settings, purge standby/system working sets and start Windows volume optimization.</p>
-        <p>The Surge Ledger records what changed and what gets restored. It does not fake FPS, spoof RAM, bypass security software or promise that hardware, router or ISP limits disappear. It reduces avoidable local pressure and shows what it did.</p>
+        <p>SURGE samples CPU, memory, GPU, network adapters, processes, disk load, latency and its own CPU/memory overhead from the local machine. The interface is served from a local-only engine on the PC, and the packaged desktop app uses Windows administrator access only for modules that require elevation.</p>
+        <p>When activated, the selected profile can switch to an existing high-performance power plan, apply capped app priority, trim safe background working sets only under pressure, refresh DNS and apply supported TCP settings. Service pause and disk optimization are optional because they can make active desktops feel slower.</p>
+        <p>The Surge Ledger records what changed and what gets restored. Performance Guard watches the session and can roll back disruptive changes before they sacrifice Windows responsiveness for one better number.</p>
       </div>
     </section>
 
